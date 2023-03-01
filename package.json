@@ -1,0 +1,19 @@
+{
+  "name": "projet_4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./assets/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creacress/Projet_4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/creacress/Projet_4/issues"
+  },
+  "homepage": "https://github.com/creacress/Projet_4#readme"
+}
