@@ -42,7 +42,6 @@
   }
 
   &__steps {
-    margin: 0;
     padding: 0;
     list-style: none;
     counter-reset: compteListe;
@@ -109,7 +108,11 @@
   background-color: #f6f6f6;
   padding: ($appPadding + 1rem) $appPadding;
 }
-
+.restaurants__title {
+  @media (min-width: 64rem) {
+    margin-left: 150px;
+  }
+}
 .cards {
   @media (min-width: 64rem) {
     display: flex;
@@ -130,7 +133,7 @@
 
   &__img {
     height: 12rem;
-    width: 380px;
+    width: 340px;
     border: transparent solid 0px;
     border-radius: 1rem 1rem 0 0;
     box-shadow: none;

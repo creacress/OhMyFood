@@ -106,6 +106,7 @@ html {
 @media (min-width: 64rem) {
   .container {
     overflow-x: scroll;
+    margin-left: 150px;
   }
 }
 
@@ -273,7 +274,6 @@ html {
   margin-top: 0;
 }
 .tuto__steps {
-  margin: 0;
   padding: 0;
   list-style: none;
   counter-reset: compteListe;
@@ -337,6 +337,12 @@ html {
 }
 
 @media (min-width: 64rem) {
+  .restaurants__title {
+    margin-left: 150px;
+  }
+}
+
+@media (min-width: 64rem) {
   .cards {
     display: flex;
     column-gap: 2rem;
@@ -356,7 +362,7 @@ html {
 }
 .card__img {
   height: 12rem;
-  width: 380px;
+  width: 340px;
   border: transparent solid 0px;
   border-radius: 1rem 1rem 0 0;
   box-shadow: none;
