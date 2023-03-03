@@ -60,6 +60,7 @@
     background-color: #f6f6f6;
     display: flex;
     position: relative;
+    align-items: center;
     &:last-child {
       background-color: #f5edff;
     }
@@ -114,7 +115,6 @@
     display: flex;
     column-gap: 2rem;
     position: inherit;
-    right: -15rem;
   }
 }
 
@@ -130,7 +130,7 @@
 
   &__img {
     height: 12rem;
-    width: 100%;
+    width: 380px;
     border: transparent solid 0px;
     border-radius: 1rem 1rem 0 0;
     box-shadow: none;

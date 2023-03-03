@@ -188,7 +188,7 @@ html {
   animation: loader;
   animation-delay: 2s;
   animation-fill-mode: both;
-  z-index: 10;
+  z-index: 2;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -291,6 +291,7 @@ html {
   background-color: #f6f6f6;
   display: flex;
   position: relative;
+  align-items: center;
 }
 .tuto__step:last-child {
   background-color: #f5edff;
@@ -340,7 +341,6 @@ html {
     display: flex;
     column-gap: 2rem;
     position: inherit;
-    right: -15rem;
   }
 }
 
@@ -356,7 +356,7 @@ html {
 }
 .card__img {
   height: 12rem;
-  width: 100%;
+  width: 380px;
   border: transparent solid 0px;
   border-radius: 1rem 1rem 0 0;
   box-shadow: none;
