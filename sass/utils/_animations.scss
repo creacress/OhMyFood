@@ -1,6 +1,5 @@
 @use "sass:color";
 
-/*animation coeur */
 .menu {
   position: relative;
   border-radius: 2rem 2rem 0 0;
@@ -20,7 +19,7 @@
   &__title {
     font-family: "Shrikhand", "cursive";
   }
-
+  /*animation coeur */
   &__btn {
     display: flex;
     align-items: center;
