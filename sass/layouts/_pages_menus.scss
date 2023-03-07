@@ -51,7 +51,6 @@
 .menuItem {
   display: flex;
   background-color: white;
-  animation: itemAppear 2s;
   overflow: hidden;
   animation-fill-mode: both;
   animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
@@ -124,6 +123,16 @@
   &__icon {
     color: $color-tertiary;
   }
+}
+
+.delay-0 {
+  animation: itemAppear 2s;
+}
+.delay-1 {
+  animation: itemAppear 3s;
+}
+.delay-2 {
+  animation: itemAppear 4s;
 }
 
 .wrapBtn {

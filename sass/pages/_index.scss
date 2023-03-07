@@ -118,6 +118,7 @@
     display: flex;
     column-gap: 2rem;
     position: inherit;
+    left: 12rem;
   }
 }
 
@@ -135,7 +136,7 @@
     height: 12rem;
     width: 100%;
     @media (min-width: 64rem) {
-      width: 380px;
+      width: 100%;
     }
     border: transparent solid 0px;
     border-radius: 1rem 1rem 0 0;
