@@ -37,6 +37,7 @@ html {
     @media (min-width: 64rem) {
       display: flex;
       flex-direction: row-reverse;
+      justify-content: center;
       padding: $appPadding;
     }
   }
